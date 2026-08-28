@@ -1,0 +1,22 @@
+{
+  "name": "code-prediction-lab",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "dev:server": "STATIC_DIR=dist cargo run",
+    "build": "vite build",
+    "build:server": "cargo build --release",
+    "test": "npm run test:unit && cargo test",
+    "test:unit": "tsc -p tsconfig.json --noEmit && node --test tests/*.test.js",
+    "test:e2e": "playwright test"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "4.10.2",
+    "@playwright/test": "1.58.2",
+    "@types/node": "^22.20.1",
+    "typescript": "5.9.2",
+    "vite": "^7.3.6"
+  }
+}
