@@ -1,13 +1,30 @@
 {
   "slug": "code-prediction-lab",
   "title": "Code Prediction Lab",
+  "territory": "utilities",
+  "user": "Self-learners using an LLM while learning a programming language who need to form and test a prediction before reading an explanation or copying code.",
+  "evidence": [
+    {
+      "url": "https://hn.algolia.com/api/v1/items/47456420",
+      "date": "2026-03-20",
+      "quote_or_summary": "A learner asks how people use LLMs to learn C or new programming concepts: project explanations, small code experiments, and why one approach is chosen over another."
+    },
+    {
+      "url": "https://github.com/jupyterlab/jupyterlab/issues/19555",
+      "date": "2026-08-21",
+      "quote_or_summary": "The proposed JupyterLab extension notes that saved notebook outputs lack a record of the environment that actually produced them, so later results can look trustworthy while being irreproducible."
+    }
+  ],
+  "recurrence": "Two 2026 requests identify complementary problems: learning through experiments and being able to trust/recreate the experiment later.",
+  "current_workaround": "Ask a chatbot to explain code, keep ad-hoc snippets, or rerun an old notebook with unknown dependencies.",
+  "incumbents_and_gap": "Jupyter and online sandboxes execute code; chat tutors explain it. Neither makes prediction-before-run, observed result, explanation, and runnable environment receipt a small learning artifact.",
+  "smallest_useful_product": "Local web app that presents tiny language-specific experiments, requires a predicted output/explanation, runs a sandboxed snippet, and saves a Markdown receipt with dependency/runtime metadata. Non-goals: code generation, a hosted IDE, or a curriculum marketplace.",
+  "success_measure": "In a 20-exercise pilot, learners make a prediction before execution on 75%+ of attempts and can rerun 90%+ of saved experiments unchanged one month later.",
   "artifact_class": "web-with-backend",
-  "job": "Help self-learners commit to a falsifiable code prediction, observe a sandboxed run, explain the difference, and keep a reproducible receipt.",
-  "audience": "Self-learners using an LLM while learning a programming language",
-  "monetization": "freemium",
-  "constraints": [
-    "Run untrusted code with strict time and output caps",
-    "Retain no learner code on the server",
-    "Pin and disclose runtimes"
-  ]
+  "monetization": "freemium — free local exercises establish utility; managed isolated runtimes for classroom groups can fund it.",
+  "constraints": "Run untrusted code in strict isolated containers with resource caps; retain no learner code by default; pin and disclose runtimes.",
+  "est_build_effort": "M",
+  "why_distinct": "The learning mechanism is committing to a falsifiable prediction, not an LLM supplying an answer.",
+  "confidence": 4,
+  "state": "RESEARCHED"
 }
