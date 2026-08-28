@@ -1,0 +1,13 @@
+{
+  "slug": "code-prediction-lab",
+  "title": "Code Prediction Lab",
+  "artifact_class": "web-with-backend",
+  "job": "Help self-learners commit to a falsifiable code prediction, observe a sandboxed run, explain the difference, and keep a reproducible receipt.",
+  "audience": "Self-learners using an LLM while learning a programming language",
+  "monetization": "freemium",
+  "constraints": [
+    "Run untrusted code with strict time and output caps",
+    "Retain no learner code on the server",
+    "Pin and disclose runtimes"
+  ]
+}

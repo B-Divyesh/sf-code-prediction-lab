@@ -1,0 +1,9 @@
+{
+  "asset": "field-guide-hero",
+  "date": "2026-08-28",
+  "generator": "Azure AI Foundry factory image deployment via /opt/fleet/lib/gen-image.sh",
+  "size": "1536x1024",
+  "quality": "high",
+  "prompt": "Use case: stylized-concept. Asset type: responsive landing-page hero illustration. Primary request: Create an original botanical field-guide still life about learning code through prediction and observation. Scene: an open cream rag-paper specimen notebook where a delicate branching fern grows from abstract tiny monospaced code-like marks into four pinned observation labels, with seed, shoot, leaf and pressed specimen subtly suggesting a four-step learning cycle. Style: hand-cut paper collage blended with precise 19th-century scientific botanical engraving, contemporary editorial restraint. Composition: landscape, visual detail concentrated to the right and center, calm pale paper breathing room on the left, no interface mockup. Lighting: soft north-window light, gentle tactile shadows, slight top-down oblique view. Palette: parchment, deep fern green, moss, pollen yellow, carbon ink. Materials: deckled paper, graphite, green ink, one small brass specimen pin. Constraints: original image, no people, no hands, no screens, no brands, no readable text, no watermark, no logos, no neon gradient, no glossy plastic 3D, no visual clutter.",
+  "review": "Accepted. No people, hands, brands, logos, watermarks, or misleading interface elements. Abstract marks are intentionally code-like and not meaningful copy."
+}
